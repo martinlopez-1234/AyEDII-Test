@@ -1,0 +1,13 @@
+El comando tee lee la entrada estándar y la escribe tanto en la salida estándar como en uno o más archivos al mismo tiempo1. Se utiliza principalmente en combinación con otros comandos a través de tuberías (pipes). Por ejemplo, si deseas ver la salida de un comando y también guardarla en un archivo, puedes usar tee de la siguiente manera:
+
+comando | tee archivo.txt
+Esto ejecutará el comando, mostrará su salida en la terminal y también guardará la misma salida en archivo.txt. ¿Hay algo más en lo que pueda ayudarte?
+
+Mensaje recibido. El comando `tee` lee la entrada estándar y la escribe tanto en la salida estándar como en uno o más archivos al mismo tiempo. Se utiliza principalmente en combinación con otros comandos a través de tuberías (pipes). Por ejemplo, si deseas ver la salida de un comando y también guardarla en un archivo, puedes usar `tee` de la siguiente manera: ``` comando | tee archivo.txt ``` Esto ejecutará el `comando`, mostrará su salida en la terminal y también guardará la misma salida en `archivo.txt`. ¿Hay algo más en lo que pueda ayudarte?
+
+¿Cómo puedo agregar contenido a un archivo existente con tee?
+Mensaje enviado. ¿Cómo puedo agregar contenido a un archivo existente con tee?
+Para agregar contenido a un archivo existente con tee, puedes usar la opción -a (o --append) que hace que tee agregue la entrada al archivo en lugar de sobrescribirlo. Por ejemplo:
+
+echo "texto adicional" | tee -a archivo.txt
+Este comando agregará la cadena "texto adicional" al final de archivo.txt sin sobrescribir su contenido existente. 
