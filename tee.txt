@@ -11,3 +11,11 @@ Para agregar contenido a un archivo existente con tee, puedes usar la opción -a
 
 echo "texto adicional" | tee -a archivo.txt
 Este comando agregará la cadena "texto adicional" al final de archivo.txt sin sobrescribir su contenido existente. 
+
+
+Pregunta, me podrias explicar este mensaje que me dio Git?git commit -m "Ahora en Cloud" [main 23b8d52] Ahora en Cloud 3 files changed, 26 insertions(+) create mode 100644 dos.cpp create mode 100644 tee.txt create mode 100644 uno.cpp
+Mensaje enviado. Pregunta, me podrias explicar este mensaje que me dio Git?git commit -m "Ahora en Cloud" [main 23b8d52] Ahora en Cloud 3 files changed, 26 insertions(+) create mode 100644 dos.cpp create mode 100644 tee.txt create mode 100644 uno.cpp
+Claro. Este mensaje indica que se ha realizado un commit en Git con el mensaje “Ahora en Cloud”. El commit tiene el identificador 23b8d52 y está en la rama main. Se han cambiado 3 archivos, con un total de 26 inserciones. Además, se han creado 3 nuevos archivos: dos.cpp, tee.txt y uno.cpp.
+
+
+hola hola
