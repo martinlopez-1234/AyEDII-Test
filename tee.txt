@@ -1,3 +1,6 @@
+perro loco
+perro loco
+
 El comando tee lee la entrada estándar y la escribe tanto en la salida estándar como en uno o más archivos al mismo tiempo1. Se utiliza principalmente en combinación con otros comandos a través de tuberías (pipes). Por ejemplo, si deseas ver la salida de un comando y también guardarla en un archivo, puedes usar tee de la siguiente manera:
 
 comando | tee archivo.txt
@@ -17,5 +20,3 @@ Pregunta, me podrias explicar este mensaje que me dio Git?git commit -m "Ahora e
 Mensaje enviado. Pregunta, me podrias explicar este mensaje que me dio Git?git commit -m "Ahora en Cloud" [main 23b8d52] Ahora en Cloud 3 files changed, 26 insertions(+) create mode 100644 dos.cpp create mode 100644 tee.txt create mode 100644 uno.cpp
 Claro. Este mensaje indica que se ha realizado un commit en Git con el mensaje “Ahora en Cloud”. El commit tiene el identificador 23b8d52 y está en la rama main. Se han cambiado 3 archivos, con un total de 26 inserciones. Además, se han creado 3 nuevos archivos: dos.cpp, tee.txt y uno.cpp.
 |
-hola
-hola
